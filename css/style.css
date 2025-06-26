@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
+img {
+    padding: 20px;
+}
+
 body {
     background: linear-gradient(135deg, #ffe6f0, #fbeeff);
     font-family: 'Quicksand', sans-serif;
@@ -29,7 +33,6 @@ body {
 
 .imagenes img {
     max-width: 90%;
-    padding: 20px;
     border-radius: 1rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
